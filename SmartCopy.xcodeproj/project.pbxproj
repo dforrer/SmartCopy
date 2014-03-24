@@ -13,6 +13,13 @@
 		65148F9717CA6B1D002EC7A1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 65148F9517CA6B1D002EC7A1 /* Credits.rtf */; };
 		65148F9A17CA6B1D002EC7A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148F9917CA6B1D002EC7A1 /* AppDelegate.m */; };
 		65148F9D17CA6B1D002EC7A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65148F9B17CA6B1D002EC7A1 /* MainMenu.xib */; };
+		65148FA517CA6B3A002EC7A1 /* CopyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148FA417CA6B3A002EC7A1 /* CopyObject.m */; };
+		65148FAB17CA6F26002EC7A1 /* CopyProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148FAA17CA6F26002EC7A1 /* CopyProcess.m */; };
+		65197B9318D807CA00440C6C /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65197B9218D807CA00440C6C /* FileHelper.m */; };
+		65197B9518D80D4300440C6C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65197B9418D80D4300440C6C /* README.txt */; };
+		65197B9818D80E3E00440C6C /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 65197B9718D80E3E00440C6C /* COPYING */; };
+		6528173C17CE472B00D305A8 /* App-ark.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6528173B17CE472B00D305A8 /* App-ark.icns */; };
+		6528174217CFA69B00D305A8 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528174117CFA69B00D305A8 /* Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +36,17 @@
 		65148F9817CA6B1D002EC7A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65148F9917CA6B1D002EC7A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		65148F9C17CA6B1D002EC7A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		65148FA317CA6B3A002EC7A1 /* CopyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyObject.h; sourceTree = "<group>"; };
+		65148FA417CA6B3A002EC7A1 /* CopyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyObject.m; sourceTree = "<group>"; };
+		65148FA917CA6F26002EC7A1 /* CopyProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyProcess.h; sourceTree = "<group>"; };
+		65148FAA17CA6F26002EC7A1 /* CopyProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyProcess.m; sourceTree = "<group>"; };
+		65197B9118D807CA00440C6C /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileHelper.h; path = "../Objective-C.Classes/FileHelper.h"; sourceTree = "<group>"; };
+		65197B9218D807CA00440C6C /* FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileHelper.m; path = "../Objective-C.Classes/FileHelper.m"; sourceTree = "<group>"; };
+		65197B9418D80D4300440C6C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = "../../../../Technik/Icons/crystal-clear-icons-by-everaldo/README.txt"; sourceTree = "<group>"; };
+		65197B9718D80E3E00440C6C /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = COPYING; path = "../../Objective-C.Classes/COPYING"; sourceTree = "<group>"; };
+		6528173B17CE472B00D305A8 /* App-ark.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "App-ark.icns"; path = "../App-ark.icns"; sourceTree = "<group>"; };
+		6528174017CFA69B00D305A8 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		6528174117CFA69B00D305A8 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +64,10 @@
 		65148F7A17CA6B1D002EC7A1 = {
 			isa = PBXGroup;
 			children = (
+				65197B9118D807CA00440C6C /* FileHelper.h */,
+				65197B9218D807CA00440C6C /* FileHelper.m */,
 				65148F8C17CA6B1D002EC7A1 /* SmartCopy */,
+				65148F8D17CA6B1D002EC7A1 /* Supporting Files */,
 				65148F8517CA6B1D002EC7A1 /* Frameworks */,
 				65148F8417CA6B1D002EC7A1 /* Products */,
 			);
@@ -84,8 +105,13 @@
 			children = (
 				65148F9817CA6B1D002EC7A1 /* AppDelegate.h */,
 				65148F9917CA6B1D002EC7A1 /* AppDelegate.m */,
+				6528174017CFA69B00D305A8 /* Singleton.h */,
+				6528174117CFA69B00D305A8 /* Singleton.m */,
+				65148FA917CA6F26002EC7A1 /* CopyProcess.h */,
+				65148FAA17CA6F26002EC7A1 /* CopyProcess.m */,
+				65148FA317CA6B3A002EC7A1 /* CopyObject.h */,
+				65148FA417CA6B3A002EC7A1 /* CopyObject.m */,
 				65148F9B17CA6B1D002EC7A1 /* MainMenu.xib */,
-				65148F8D17CA6B1D002EC7A1 /* Supporting Files */,
 			);
 			path = SmartCopy;
 			sourceTree = "<group>";
@@ -93,13 +119,25 @@
 		65148F8D17CA6B1D002EC7A1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				65197B9718D80E3E00440C6C /* COPYING */,
 				65148F8E17CA6B1D002EC7A1 /* SmartCopy-Info.plist */,
 				65148F8F17CA6B1D002EC7A1 /* InfoPlist.strings */,
 				65148F9217CA6B1D002EC7A1 /* main.m */,
 				65148F9417CA6B1D002EC7A1 /* SmartCopy-Prefix.pch */,
 				65148F9517CA6B1D002EC7A1 /* Credits.rtf */,
+				65197B9618D80DC000440C6C /* Icon */,
 			);
 			name = "Supporting Files";
+			path = SmartCopy;
+			sourceTree = "<group>";
+		};
+		65197B9618D80DC000440C6C /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				65197B9418D80D4300440C6C /* README.txt */,
+				6528173B17CE472B00D305A8 /* App-ark.icns */,
+			);
+			name = Icon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +166,7 @@
 		65148F7B17CA6B1D002EC7A1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Forrer;
 			};
 			buildConfigurationList = 65148F7E17CA6B1D002EC7A1 /* Build configuration list for PBXProject "SmartCopy" */;
@@ -137,6 +175,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = 65148F7A17CA6B1D002EC7A1;
 			productRefGroup = 65148F8417CA6B1D002EC7A1 /* Products */;
@@ -153,9 +192,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65197B9818D80E3E00440C6C /* COPYING in Resources */,
 				65148F9117CA6B1D002EC7A1 /* InfoPlist.strings in Resources */,
 				65148F9717CA6B1D002EC7A1 /* Credits.rtf in Resources */,
 				65148F9D17CA6B1D002EC7A1 /* MainMenu.xib in Resources */,
+				6528173C17CE472B00D305A8 /* App-ark.icns in Resources */,
+				65197B9518D80D4300440C6C /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +210,10 @@
 			files = (
 				65148F9317CA6B1D002EC7A1 /* main.m in Sources */,
 				65148F9A17CA6B1D002EC7A1 /* AppDelegate.m in Sources */,
+				65148FA517CA6B3A002EC7A1 /* CopyObject.m in Sources */,
+				65148FAB17CA6F26002EC7A1 /* CopyProcess.m in Sources */,
+				6528174217CFA69B00D305A8 /* Singleton.m in Sources */,
+				65197B9318D807CA00440C6C /* FileHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +251,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -238,7 +283,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -279,6 +323,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmartCopy/SmartCopy-Prefix.pch";
 				INFOPLIST_FILE = "SmartCopy/SmartCopy-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -303,6 +348,7 @@
 				65148FA217CA6B1D002EC7A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
