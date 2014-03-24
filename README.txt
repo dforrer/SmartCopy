@@ -1,7 +1,16 @@
-The Crystal Clear icon set was created by 
-Everaldo Coelho, http://www.everaldo.com/
+MOTIVATION
+==========
 
-All Icons are free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version. This library is distributed in the hope that it will be useful, but without any warranty; without even the implied warranty of merchantability or fitness for a particular purpose. 
+I created this app, because I needed a copying tool that could rename files, 
+in a Dropbox compatible manner, whilst they were being copied.
 
-License details:
-Visit http://www.everaldo.com/crystal/?action=license for details.
+BACKGROUND
+==========
+
+Dropbox does not accept certain file names in its folder, 
+e.g. folders or files with a file name that starts with a space.
+When Dropbox finds such a file, it automatically removes 
+all the incompatible characters from the file name.
+
+The problem I encountered arises, when the file copy process takes longer to finish, 
+than Dropbox takes to detect and rename the new file(s). 
