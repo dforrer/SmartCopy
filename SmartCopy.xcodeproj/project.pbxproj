@@ -15,11 +15,11 @@
 		65148F9D17CA6B1D002EC7A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65148F9B17CA6B1D002EC7A1 /* MainMenu.xib */; };
 		65148FA517CA6B3A002EC7A1 /* CopyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148FA417CA6B3A002EC7A1 /* CopyObject.m */; };
 		65148FAB17CA6F26002EC7A1 /* CopyProcess.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148FAA17CA6F26002EC7A1 /* CopyProcess.m */; };
-		65197B9318D807CA00440C6C /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 65197B9218D807CA00440C6C /* FileHelper.m */; };
 		65197B9518D80D4300440C6C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65197B9418D80D4300440C6C /* README.txt */; };
 		65197B9818D80E3E00440C6C /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 65197B9718D80E3E00440C6C /* COPYING */; };
 		6528173C17CE472B00D305A8 /* App-ark.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6528173B17CE472B00D305A8 /* App-ark.icns */; };
 		6528174217CFA69B00D305A8 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528174117CFA69B00D305A8 /* Singleton.m */; };
+		655863ED18E056CD00207EF4 /* FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 655863EC18E056CD00207EF4 /* FileHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,13 +40,13 @@
 		65148FA417CA6B3A002EC7A1 /* CopyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyObject.m; sourceTree = "<group>"; };
 		65148FA917CA6F26002EC7A1 /* CopyProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyProcess.h; sourceTree = "<group>"; };
 		65148FAA17CA6F26002EC7A1 /* CopyProcess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyProcess.m; sourceTree = "<group>"; };
-		65197B9118D807CA00440C6C /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileHelper.h; path = "../Objective-C.Classes/FileHelper.h"; sourceTree = "<group>"; };
-		65197B9218D807CA00440C6C /* FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileHelper.m; path = "../Objective-C.Classes/FileHelper.m"; sourceTree = "<group>"; };
 		65197B9418D80D4300440C6C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = "../../../../Technik/Icons/crystal-clear-icons-by-everaldo/README.txt"; sourceTree = "<group>"; };
 		65197B9718D80E3E00440C6C /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = COPYING; path = "../../Objective-C.Classes/COPYING"; sourceTree = "<group>"; };
 		6528173B17CE472B00D305A8 /* App-ark.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "App-ark.icns"; path = "../App-ark.icns"; sourceTree = "<group>"; };
 		6528174017CFA69B00D305A8 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		6528174117CFA69B00D305A8 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		655863EB18E056CD00207EF4 /* FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHelper.h; sourceTree = "<group>"; };
+		655863EC18E056CD00207EF4 /* FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +64,8 @@
 		65148F7A17CA6B1D002EC7A1 = {
 			isa = PBXGroup;
 			children = (
-				65197B9118D807CA00440C6C /* FileHelper.h */,
-				65197B9218D807CA00440C6C /* FileHelper.m */,
+				655863EB18E056CD00207EF4 /* FileHelper.h */,
+				655863EC18E056CD00207EF4 /* FileHelper.m */,
 				65148F8C17CA6B1D002EC7A1 /* SmartCopy */,
 				65148F8D17CA6B1D002EC7A1 /* Supporting Files */,
 				65148F8517CA6B1D002EC7A1 /* Frameworks */,
@@ -213,7 +213,7 @@
 				65148FA517CA6B3A002EC7A1 /* CopyObject.m in Sources */,
 				65148FAB17CA6F26002EC7A1 /* CopyProcess.m in Sources */,
 				6528174217CFA69B00D305A8 /* Singleton.m in Sources */,
-				65197B9318D807CA00440C6C /* FileHelper.m in Sources */,
+				655863ED18E056CD00207EF4 /* FileHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
