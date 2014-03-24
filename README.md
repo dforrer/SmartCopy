@@ -14,3 +14,11 @@ all the incompatible characters from the file name.
 
 The problem I encountered arises, when the file copy process takes longer to finish, 
 than Dropbox takes to detect and rename the new file(s). 
+
+USAGE
+=====
+
+1. Download ZIP-File to Desktop
+2. Open XCode-Project
+3. Click "Product-Clean"
+4. Click "Product-Run"
